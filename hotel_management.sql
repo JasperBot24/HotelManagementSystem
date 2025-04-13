@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 06, 2025 at 11:26 AM
+-- Generation Time: Apr 14, 2025 at 12:59 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -50,7 +50,10 @@ INSERT INTO `checkouts` (`checkout_id`, `reservation_id`, `customer_id`, `room_n
 (35, 57, '001', '101', '2025-03-29 16:01:38', '2025-03-29 16:02:52', 4499.00, 'Checked-out'),
 (36, 59, 'W05', '106', '2025-03-29 16:02:25', '2025-04-06 12:31:59', 10493.00, 'Checked-out'),
 (37, 60, '001', '105', '2025-03-29 16:15:15', '2025-03-29 16:17:18', 1999.00, 'Checked-out'),
-(38, 61, '001', '108', '2025-03-29 16:15:15', '2025-04-06 12:31:59', 31493.00, 'Checked-out');
+(38, 61, '001', '108', '2025-03-29 16:15:15', '2025-04-06 12:31:59', 31493.00, 'Checked-out'),
+(45, 69, '006', '105', '2025-04-12 00:00:00', '2025-04-13 00:00:00', 1999.00, 'Checked-in'),
+(46, 70, 'W08', '102', '2025-04-12 21:04:17', '2025-04-13 21:04:20', 5499.00, 'Checked-in'),
+(47, 71, '006', '202', '2025-04-12 00:00:00', '2025-04-15 00:00:00', 5499.00, 'Checked-in');
 
 -- --------------------------------------------------------
 
@@ -119,7 +122,10 @@ INSERT INTO `check_ins` (`check_in_id`, `reservation_id`, `customer_id`, `custom
 (17, 57, '001', 'Aaron Perez', '09123456777', '101', '2025-03-29 16:01:38', 'checked-in'),
 (18, 59, 'W05', 'asdasd', '09999111111', '106', '2025-03-29 16:02:25', 'checked-in'),
 (19, 60, '001', 'Aaron Perez', '09123456777', '105', '2025-03-29 16:15:15', 'checked-in'),
-(20, 61, '001', 'Aaron Perez', '09123456777', '108', '2025-03-29 16:15:15', 'checked-in');
+(20, 61, '001', 'Aaron Perez', '09123456777', '108', '2025-03-29 16:15:15', 'checked-in'),
+(27, 69, '006', 'JM Boticario', '09281234567', '105', '2025-04-12 00:00:00', 'checked-in'),
+(28, 70, 'W08', 'LeBron', '09281334789', '102', '2025-04-12 21:04:17', 'checked-in'),
+(29, 71, '006', 'JM Boticario', '09281234567', '202', '2025-04-12 00:00:00', 'checked-in');
 
 -- --------------------------------------------------------
 
@@ -145,12 +151,15 @@ INSERT INTO `customers` (`customer_id`, `customer_fullname`, `customer_email`, `
 ('002', 'Jhonalyn Perez', 'jho@gmail.com', '09123456788', 'llano, caloocan city', '123'),
 ('003', 'Ethan Perez', 'ethan123@gmail.com', '09992222222', 'bagumbong caloocan city', 'ethan123'),
 ('004', 'Kierance Perez', 'kier@gmail.com', '09912121212', 'quezon city', 'kier123'),
+('006', 'JM Boticario', 'jm11@gmail.com', '09281234567', 'Camarin Caloocan City', 'jm@11'),
+('007', 'James Boticario', 'james11@gmail.com', '09223456789', 'Deparo, Caloocan City', 'james@11'),
 ('W01', 'kiier', NULL, '09123456789', 'caloocanm', NULL),
 ('W02', 'ethan', NULL, '09912345678', 'caloocan', NULL),
 ('W03', 'kier', NULL, '09191919191', 'bagumbong', NULL),
 ('W05', 'asdasd', NULL, '09999111111', 'cascasdas', NULL),
 ('W06', 'asdasdasd', NULL, '09912121212', 'calooasd', NULL),
-('W07', 'asdasd', NULL, '09121212121', 'asdasd', NULL);
+('W07', 'asdasd', NULL, '09121212121', 'asdasd', NULL),
+('W08', 'LeBron', NULL, '09281334789', 'Novaliches, Quezon City', NULL);
 
 -- --------------------------------------------------------
 
@@ -174,7 +183,7 @@ CREATE TABLE `employees` (
 --
 
 INSERT INTO `employees` (`employee_id`, `employee_fullname`, `employee_phoneNumber`, `employee_email`, `employee_address`, `employee_password`, `employee_role`, `default_salary`) VALUES
-('1', 'John Phillip', '09123456333', 'manager@gmail.com', '123 Manager St burat', '1234', 'Manager', 35000),
+('1', 'Jasper', '09123456333', 'manager@gmail.com', 'Hilltop, Lagro Quezon City', '1234', 'Manager', 35000),
 ('2', 'Aaron Sean', '09123456789', 'admin@gmail.com', '123 Admin St', 'admin123', 'Admin', 40000),
 ('4', 'Sean', '09991212123', 'sean123@gmail.com', 'caloocan', '123', 'Manager', 35000),
 ('5', 'asdasd', '09999999999', 'asd@gmail.com', 'asdasd', 'asd', 'Stock', 15000),
@@ -257,7 +266,10 @@ INSERT INTO `reservations` (`reservation_id`, `customer_id`, `room_number`, `che
 (58, '001', '102', '2025-03-29 16:01:38', 'Approved', NULL, NULL, NULL, NULL, NULL, '2025-04-01 00:00:00'),
 (59, 'W05', '106', '2025-03-29 16:02:25', 'Walk-in', NULL, NULL, NULL, NULL, NULL, '2025-04-01 16:02:27'),
 (60, '001', '105', '2025-03-29 16:15:15', 'Approved', NULL, NULL, NULL, NULL, NULL, '2025-03-30 16:15:16'),
-(61, '001', '108', '2025-03-29 16:15:15', 'Approved', NULL, NULL, NULL, NULL, NULL, '2025-03-31 16:15:16');
+(61, '001', '108', '2025-03-29 16:15:15', 'Approved', NULL, NULL, NULL, NULL, NULL, '2025-03-31 16:15:16'),
+(69, '006', '105', '2025-04-12 00:00:00', 'Approved', NULL, NULL, NULL, NULL, NULL, '2025-04-13 00:00:00'),
+(70, 'W08', '102', '2025-04-12 21:04:17', 'Walk-in', NULL, NULL, NULL, NULL, NULL, '2025-04-13 21:04:20'),
+(71, '006', '202', '2025-04-12 00:00:00', 'Approved', NULL, NULL, NULL, NULL, NULL, '2025-04-15 00:00:00');
 
 -- --------------------------------------------------------
 
@@ -272,7 +284,7 @@ CREATE TABLE `rooms` (
   `price` decimal(10,2) NOT NULL,
   `status` varchar(20) NOT NULL,
   `date_added` date NOT NULL
-) ;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `rooms`
@@ -280,10 +292,12 @@ CREATE TABLE `rooms` (
 
 INSERT INTO `rooms` (`room_number`, `room_type`, `capacity`, `price`, `status`, `date_added`) VALUES
 ('101', 'Deluxe Room', 6, 4499.00, 'Not Available', '2025-03-19'),
-('102', 'Suite', 8, 5499.00, 'Available', '2025-03-18'),
-('105', 'Double Room', 4, 1999.00, 'Not Available', '2025-03-18'),
+('102', 'Suite', 8, 5499.00, 'Occupied', '2025-03-18'),
+('105', 'Double Room', 4, 1999.00, 'Occupied', '2025-03-18'),
 ('106', 'Single Room', 2, 1499.00, 'Available', '2025-03-19'),
-('108', 'Deluxe Room', 6, 4499.00, 'Available', '2025-03-19');
+('108', 'Deluxe Room', 6, 4499.00, 'Not Available', '2025-03-19'),
+('201', 'Queen Room', 6, 3499.00, 'Available', '2025-04-07'),
+('202', 'Suite', 8, 5499.00, 'Occupied', '2025-04-09');
 
 --
 -- Indexes for dumped tables
@@ -348,25 +362,25 @@ ALTER TABLE `rooms`
 -- AUTO_INCREMENT for table `checkouts`
 --
 ALTER TABLE `checkouts`
-  MODIFY `checkout_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=40;
+  MODIFY `checkout_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=48;
 
 --
 -- AUTO_INCREMENT for table `check_history`
 --
 ALTER TABLE `check_history`
-  MODIFY `history_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=42;
+  MODIFY `history_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=47;
 
 --
 -- AUTO_INCREMENT for table `check_ins`
 --
 ALTER TABLE `check_ins`
-  MODIFY `check_in_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
+  MODIFY `check_in_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=30;
 
 --
 -- AUTO_INCREMENT for table `reservations`
 --
 ALTER TABLE `reservations`
-  MODIFY `reservation_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=63;
+  MODIFY `reservation_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=72;
 
 --
 -- Constraints for dumped tables
