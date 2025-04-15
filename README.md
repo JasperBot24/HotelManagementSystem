@@ -5,21 +5,21 @@ DEFAULT EMAIL AND PASSWORD:
 
 Customer Dashboard
 
-Email:aaron@gmail.com
+Email: aaron@gmail.com
 
-Password:123
+Password: 123
 
 Manager Dashboard
 
-Email:manager@gmail.com
+Email: manager@gmail.com
 
-Password:1234
+Password: 1234
 
 Admin Dashboard
 
-Email:admin@gmail.com
+Email: admin@gmail.com
 
-Password:admin123
+Password: admin123
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 USED LIBRARY FILES:
