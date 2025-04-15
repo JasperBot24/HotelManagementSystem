@@ -1,6 +1,6 @@
 Hotel Management System Project in OOPR 2
 
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Customer Dashboard
 Email:aaron@gmail.com
 Password:123
@@ -21,7 +21,7 @@ jgoodies-common-1.2.0 - https://mvnrepository.com/artifact/com.jgoodies/jgoodies
 jgoodies-looks-2.4.1 - https://mvnrepository.com/artifact/com.jgoodies/looks/2.4.1
 junit-4.6 - https://mvnrepository.com/artifact/junit/junit/4.6
 
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Requirements to Run this Project:
 
 
