@@ -1,6 +1,8 @@
 Hotel Management System Project in OOPR 2
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+DEFAULT EMAIL AND PASSWORD:
+
 Customer Dashboard
 Email:aaron@gmail.com
 Password:123
