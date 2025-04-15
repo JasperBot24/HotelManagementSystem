@@ -1,4 +1,4 @@
-![Admin Home](https://github.com/user-attachments/assets/0ef3d5a1-f7c2-4c82-986a-aba9488d8860)Hotel Management System Project in OOPR 2
+Hotel Management System Project in OOPR 2
 
 The Hotel Management System is a user-friendly desktop application designed to streamline and automate the core operations of a hotel or lodging facility. Built using Java Swing and connected to a MySQL database, the system provides hotel staff and administrators with efficient tools to manage rooms, handle customer check-ins/check-outs, track booking history, and maintain employee and user records.
 
@@ -23,7 +23,7 @@ This system is tailored for both front-desk operations and hotel administrators,
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-CUSTOMER DASHBOARD:
+CUSTOMER DASHBOARD
 ![Customer Home](https://github.com/user-attachments/assets/750291a0-43d2-441b-8a79-6fcf4388b3db)
 
 
@@ -33,7 +33,7 @@ MANAGER DASHBOARD
 
 
 
-ADMIN DASHBOARD:
+ADMIN DASHBOARD
 ![Admin Home](https://github.com/user-attachments/assets/c147c85e-20b0-414d-925b-31d9291ea0f3)
 
 
