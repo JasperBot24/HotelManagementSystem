@@ -42,9 +42,9 @@ DEFAULT EMAIL AND PASSWORD:
 
 Customer Dashboard
 
-Email: aaron@gmail.com
+Email: james11@gmail.com
 
-Password: 123
+Password: james@11
 
 Manager Dashboard
 
