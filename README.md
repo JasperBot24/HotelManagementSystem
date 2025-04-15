@@ -12,9 +12,9 @@ The Hotel Management System is a user-friendly desktop application designed to s
 
 📖 Booking History: View and search historical data for past check-ins/check-outs.
 
-📈 User & Manager Dashboard: Manage accounts, access rights, and staff details securely.
+📊 User & Manager Dashboard: Manage accounts, access rights, and staff details securely.
 
-📈 Admin Dashboard: Intuitive navigation through different panels using CardLayout and custom background design.
+📊 Admin Dashboard: Intuitive navigation through different panels using CardLayout and custom background design.
 
 
 
@@ -38,7 +38,7 @@ ADMIN DASHBOARD
 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-DEFAULT EMAIL AND PASSWORD:
+HERE'S THE EXAMPLE OF EMAIL AND PASSWORD:
 
 Customer Dashboard
 
@@ -59,7 +59,7 @@ Email: admin@gmail.com
 Password: admin123
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-USED LIBRARY FILES:
+📖 USED LIBRARY FILES:
 
 1. jcalendar-1.4 - https://toedter.com/jcalendar/
 2. mysql-connector-j-9.2.0 - https://dev.mysql.com/downloads/connector/j/?os=26
