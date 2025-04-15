@@ -3,18 +3,18 @@ Hotel Management System Project in OOPR 2
 The Hotel Room Management System is a user-friendly desktop application designed to streamline and automate the core operations of a hotel or lodging facility. Built using Java Swing and connected to a MySQL database, the system provides hotel staff and administrators with efficient tools to manage rooms, handle customer check-ins/check-outs, track booking history, and maintain employee and user records.
 
 
-Key features include:
+🧩 Key Features:
 
 
-Room Management: Add, Edit, and Delete room data with live status tracking (Available, Not Available, Occupied).
+🏨 Room Management: Add, Edit, and Delete room data with live status tracking (Available, Not Available, Occupied).
 
-Customer Check-In & Check-Out: Smooth guest management using date pickers, room-type filtering, and auto-calculated pricing.
+🔁 Customer Check-In & Check-Out: Smooth guest management using date pickers, room-type filtering, and auto-calculated pricing.
 
-Booking History: View and search historical data for past check-ins/check-outs.
+📖 Booking History: View and search historical data for past check-ins/check-outs.
 
-User & Employee Panel: Manage accounts, access rights, and staff details securely.
+User & Manager Dashboard: Manage accounts, access rights, and staff details securely.
 
-Manager Dashboard: Intuitive navigation through different panels using CardLayout and custom background design.
+Admin Dashboard: Intuitive navigation through different panels using CardLayout and custom background design.
 
 
 
@@ -53,7 +53,7 @@ USED LIBRARY FILES:
 5. junit-4.6 - https://mvnrepository.com/artifact/junit/junit/4.6
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-REQUIREMENTS TO RUN THIS PROJECT:
+🛠️ REQUIREMENTS TO RUN THIS PROJECT:
 1. Eclipse IDE
 2. Java SDK 22 or Latest Version
 3. JDBC MYSQL Connector
