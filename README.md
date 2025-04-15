@@ -27,7 +27,7 @@ USED LIBRARY FILES:
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 REQUIREMENTS TO RUN THIS PROJECT:
 1. Eclipse IDE
-2. JDBC MYSQL Connector
-3. Java SDK 22 or Latest Version
+2. Java SDK 22 or Latest Version
+3. JDBC MYSQL Connector
 
 
