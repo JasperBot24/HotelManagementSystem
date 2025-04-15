@@ -1,6 +1,6 @@
 Hotel Management System Project in OOPR 2
 
-The Hotel Room Management System is a user-friendly desktop application designed to streamline and automate the core operations of a hotel or lodging facility. Built using Java Swing and connected to a MySQL database, the system provides hotel staff and administrators with efficient tools to manage rooms, handle customer check-ins/check-outs, track booking history, and maintain employee and user records.
+The Hotel Management System is a user-friendly desktop application designed to streamline and automate the core operations of a hotel or lodging facility. Built using Java Swing and connected to a MySQL database, the system provides hotel staff and administrators with efficient tools to manage rooms, handle customer check-ins/check-outs, track booking history, and maintain employee and user records.
 
 
 🧩 Key Features:
