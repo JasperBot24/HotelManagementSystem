@@ -26,5 +26,8 @@ junit-4.6 - https://mvnrepository.com/artifact/junit/junit/4.6
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 REQUIREMENTS TO RUN THIS PROJECT:
+Eclipse IDE
+JDBC MYSQL Connector
+Java SDK 22 or Latest Version
 
 
