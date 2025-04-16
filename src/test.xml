@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>C:\Users\JOEL BOTICARIO\Desktop\Hotel_Management_System.jar</jar>
+  <outfile>C:\Users\JOEL BOTICARIO\Desktop\Hotel_Management_System.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl></downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>true</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon>C:\Users\JOEL BOTICARIO\eclipse-workspace\HOTELMANAGEMENT\src\vector-hotel-icon-symbol-sign-removebg-preview.ico</icon>
+  <jre>
+    <path>C:\Program Files\Java\jdk-24</path>
+    <requiresJdk>false</requiresJdk>
+    <requires64Bit>false</requires64Bit>
+    <minVersion></minVersion>
+    <maxVersion></maxVersion>
+  </jre>
+</launch4jConfig>
