@@ -29,7 +29,7 @@ CUSTOMER DASHBOARD
 
 
 MANAGER DASHBOARD
-![Manager Home](https://github.com/user-attachments/assets/c87b7e40-cf99-469c-8a95-282d10619fbe)
+![Manager Home](https://github.com/user-attachments/assets/1d3584a1-9d68-4a0f-9d66-fb79b2e8aa5a)
 
 
 
