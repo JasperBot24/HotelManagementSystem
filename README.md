@@ -24,17 +24,19 @@ This system is tailored for both front-desk operations and hotel administrators,
 
 
 CUSTOMER DASHBOARD
-![Customer Home](https://github.com/user-attachments/assets/750291a0-43d2-441b-8a79-6fcf4388b3db)
+  ![Customer Home](https://github.com/user-attachments/assets/76291521-985e-4b5d-bd22-4f1608a7379d)
 
 
 
 MANAGER DASHBOARD
-![Manager Home](https://github.com/user-attachments/assets/1d3584a1-9d68-4a0f-9d66-fb79b2e8aa5a)
+![Manager Home](https://github.com/user-attachments/assets/c8531076-5d08-4c6b-833e-47a288c3dd4a)
+
 
 
 
 ADMIN DASHBOARD
-![Admin Home](https://github.com/user-attachments/assets/c147c85e-20b0-414d-925b-31d9291ea0f3)
+![Admin Home](https://github.com/user-attachments/assets/098f3c4d-162a-4686-85a5-e8a5564a8be5)
+
 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -42,9 +44,9 @@ HERE'S THE EXAMPLE OF EMAIL AND PASSWORD:
 
 Customer Dashboard
 
-Email: james11@gmail.com
+Email: aaron@gmail.com
 
-Password: james@11
+Password: 123
 
 Manager Dashboard
 
