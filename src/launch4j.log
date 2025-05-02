@@ -1,0 +1,18 @@
+
+
+Version:	3.50
+CmdLine:	C:\Users\JOEL BOTICARIO\Desktop\Hotel_Management_System.exe --l4j-debug
+JNI:		No
+WOW64:		Yes
+Working dir:	C:\Users\JOEL BOTICARIO\Desktop\.
+Requires JDK:	No
+Requires 64-Bit: No
+Java min ver:	
+Java max ver:	
+JRE paths:	C:\Program Files\Java\jdk-24
+Check launcher:	C:\Program Files\Java\jdk-24\bin\javaw.exe (OK)
+Version string: 1.024.000 / 64-Bit (OK)
+Launcher:	C:\Program Files\Java\jdk-24\bin\javaw.exe
+Launcher args:	-jar "C:\Users\JOEL BOTICARIO\Desktop\Hotel_Management_System.exe"
+Args length:	66/32768 chars
+Exit code:	0
