@@ -29,13 +29,14 @@ CUSTOMER DASHBOARD
 
 
 MANAGER DASHBOARD
-![Manager Home](https://github.com/user-attachments/assets/c8531076-5d08-4c6b-833e-47a288c3dd4a)
+![Manager Home](https://github.com/user-attachments/assets/063230cc-bdb5-4d96-a0a1-e03f93b4bcb3)
 
 
 
 
 ADMIN DASHBOARD
-![Admin Home](https://github.com/user-attachments/assets/098f3c4d-162a-4686-85a5-e8a5564a8be5)
+![Admin Home](https://github.com/user-attachments/assets/2249b015-68a3-4d9e-8c75-99482fc157ae)
+
 
 
 
